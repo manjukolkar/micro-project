@@ -1,2 +1,2 @@
 # micro-project
-Welcome Everyone
+Welcome Everyone to the Git session
