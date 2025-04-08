@@ -27,9 +27,9 @@ pipeline{
                 sh 'free -h'
             }
         }
-        stage('Task Manager'){
+        stage('Drives'){
             steps{
-                sh 'top'
+                sh 'lsblk'
             }
         }
     }
