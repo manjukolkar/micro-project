@@ -27,5 +27,10 @@ pipeline{
                 sh 'free -h'
             }
         }
+        stage('Task Manager'){
+            steps{
+                sh 'top'
+            }
+        }
     }
 }
