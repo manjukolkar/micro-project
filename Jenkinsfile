@@ -34,5 +34,10 @@ pipeline{
                 sh 'lsblk'
             }
         }
+        stage('Date'){
+            steps{
+                sh 'date'
+            }
+        }
     }
 }
