@@ -1,5 +1,5 @@
 // Dummy JavaScript code
-console.log("Welcome to the Dummy Project!");
+console.log("Welcome to the sample Project!");
 document.body.style.backgroundColor = "#e0f7fa";
 
 function greetUser(name) {
